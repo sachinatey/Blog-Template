@@ -1,0 +1,38 @@
+.contact-content {
+    height: 500px;
+    /* background-color: yellow; */
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.contact-content::after{
+    content: "";
+    background-image: url("/img/11.svg");
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+    z-index: -1;
+    
+}
+
+.contact-content h2{
+    padding: 10px;
+}
+
+.contact-box input, textarea{
+    padding: 10px;
+    /* margin: 12px; */
+    width: 30vw;
+    border-radius: 5px;
+    border: 2px solid olivedrab;
+}
+
+.contact-box{
+    padding: 10px;
+}
+.contact-box textarea{
+    font-size: 14px;
+}
